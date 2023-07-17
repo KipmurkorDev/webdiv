@@ -6,7 +6,7 @@ const HomePage = () => {
 
       Build or scale up your
       software development team
-      We help you simplify your software development lifecycle by setting up super productive agile development teams Know More
+      We help you simplify your software development lifecycle by setting up super productive agile development teams Know More 
     </div>
   )
 }
