@@ -24,6 +24,7 @@
 .footer-distributed .footer-left {
 	width: 40%;
 }
+
 .footer-distributed .footer-links {
 	color: black;
 	margin: 20px 0 12px;
@@ -31,13 +32,13 @@
 }
 
 .footer-distributed .footer-links a {
-	display: block ;
+	display: block;
 	line-height: 1.8;
 	font-weight: 400;
 	text-decoration: none;
 }
 
- .footer-company-name {
+.footer-company-name {
 	color: #222;
 	font-size: 14px;
 	font-weight: normal;
@@ -70,7 +71,7 @@
 	text-decoration: none;
 	;
 }
-  
+
 .footer-distributed .footer-links .link-1:before {
 	content: none;
 }
@@ -117,9 +118,15 @@
 	font-size: small;
 	font-weight: normal;
 }
-.rights-1 {  
-	display:  flex;
-	flex-direction: row;
+
+.rights-1 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.rights-1 p {
+	padding-top: 6%;
+	padding-left: 65%;
 }
 
 @media (max-width: 880px) {
@@ -127,9 +134,10 @@
 	.footer-distributed {
 		font: bold 14px sans-serif;
 	}
+
 	.footer-distributed .footer-left,
 	.footer-distributed .footer-center,
-	.footer-distributed .footer-right {
+	.footer-distributed {
 		display: block;
 		width: 100%;
 		margin-bottom: 40px;

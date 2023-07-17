@@ -6,13 +6,12 @@ const Header = () => {
 
     <header>
          <nav>
-           <ul class="navbar">
+            <ul class="navbar">
              <li><a href="/#">WebDiv</a></li>
              <li><a href="/#">Services</a></li>
              <li><a href="/#">How We Deliver</a></li>
              <li><a href="/#">Careers</a></li>
              <li><a href="/#">Conctact Us</a></li>
-
            </ul>
          </nav>
     </header>    

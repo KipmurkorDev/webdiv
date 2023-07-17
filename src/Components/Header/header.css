@@ -6,11 +6,12 @@ header {
     height: 15%;
     background-color: white;
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
+    text-align: justify;
 }
 
 .navbar {
-    margin: 20px;
+    margin: 10px;
     max-height: 80px;
     text-align: center;
 }
