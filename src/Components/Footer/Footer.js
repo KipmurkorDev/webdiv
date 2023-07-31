@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-
+import { Link } from 'react-router-dom'
 import './footer.css'
 const Footer = () => {
 
@@ -14,16 +14,16 @@ const Footer = () => {
                 <div className="footer-left">
                     <div className="footer-company-about"><strong> WebDiv Technology</strong></div>
                     <div className="footer-links">
-                        <a href="/#">Home</a>
-                        <a href="/#">Services</a>
-                        <a href="/#">Case Studies</a>
-                        <a href="/#">Contact Us</a>
+                        <Link to="/">WebDiv</Link>
+                        <Link to="/#">Services</Link>
+                        <Link to="/#">Case Studies</Link>
+                        <Link to="/contact">Contact Us</Link>
                     </div>
                 </div>
                 <div className="footer-center">
                     <div className="footer-company-about"><strong> Headquarters</strong></div>
-                    <div style={{}}>
-                        <p><span>29, Kabiyet</span> Rift Valley, Kenya</p>
+                    <div>
+                        <p><span>29, Rome</span> Rome, Italy</p>
                     </div>
                     <div>
                         <p>+254717330289</p>
@@ -38,10 +38,10 @@ const Footer = () => {
                 <div className="footer-right">
                     <p className="footer-company-about"><strong> Company</strong></p>
                     <div className='link'>
-                        <a href='/'>About Us</a>
-                        <a href='/'>Privacy</a>
-                        <a href='/'>Terms and Conditions</a>
-                        <a href='/'>Collections and refund policy</a>
+                        <Link to='/about'>About Us</Link>
+                        <Link to='/privacy'>Privacy</Link>
+                        <Link to='/terms'>Terms and Conditions</Link>
+                        <Link to='/collections'>Collections and refund policy</Link>
                     </div>
 
                 </div>

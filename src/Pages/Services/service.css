@@ -1,0 +1,147 @@
+.service-pg {
+    background-image: url("../../assest/services-bg.png");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    /* align-items: center; */
+}
+
+.service-pg button {
+    background-color: #F62D2D;
+    font-size: large;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.service-pg button:hover {
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
+}
+
+.service-product {
+    text-align: left;
+    display: flex;
+    margin: 100px;
+}
+
+.srv-right,
+.srv-left {
+    width: 45%;
+}
+
+.srv-right img {
+    border-radius: 20px;
+}
+
+.srv-left {
+    padding-right: 20px;
+    line-height: 2;
+}
+
+.service-product h3 {
+    font-size: x-large;
+}
+
+.service-product h4 {
+    text-align: center;
+    color: #F62D2D;
+    margin: 0;
+    padding: 0;
+}
+
+.product-development {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.product-development div {
+    padding: 20px;
+    text-align: left;
+    border: 2px solid #707070;
+    margin: 10px;
+    border-radius: 10px;
+    height: 350px;
+
+}
+
+.product-development h4 {
+    text-align: center;
+}
+
+.framework img {
+    width: 100%;
+}
+
+.pitfall {
+    display: flex;
+}
+
+.framework,
+.product-development,
+.pitfall,
+.innovation {
+    margin: 60px;
+
+}
+
+.pitfall-left,
+.pitfall-right {
+    width: 50%;
+    text-align: left;
+}
+
+.pitfall-right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 20px;
+    gap: 20px;
+}
+
+.pitfall-icon {
+    margin-right: 10px;
+    color: #F64848;
+}
+
+.innovation-top,
+.innovation-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.innovation-top div {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.innovation-top div:hover {
+    border: 1px solid red;
+
+}
+
+.btn-active {
+    background-color: #F62D2D;
+}
+
+.innovation-right,
+.innovation-left {
+    width: 50%;
+}
+.innovation-right img {
+    width: 100%;
+    border-radius: 10px;
+}
+.innovation-left p{
+    text-align: left;
+}
