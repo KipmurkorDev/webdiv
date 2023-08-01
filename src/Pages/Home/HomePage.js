@@ -56,6 +56,14 @@ const HomePage = () => {
         </div>
 
       </div>
+      <div className='deliver-bottom'>
+                <h4>
+                    Is software important to your business?
+                </h4>
+                <h1> Build it with WebDiv</h1>
+                <button> Let's Get in Touch</button>
+
+            </div>
     </div>
 
   )

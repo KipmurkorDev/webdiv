@@ -28,3 +28,14 @@ header {
 .link-nav:hover {
     color: red;
 }
+.contact{
+    padding: 5px 20px;
+    border: 1px solid red;
+    background: transparent;
+    border-radius: 3px;
+    color: red;
+}
+.contact:hover{
+    background-color: red;
+    color: white;
+}

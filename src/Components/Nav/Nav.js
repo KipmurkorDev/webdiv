@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './nav.css'
+import Model from '../Model/Model'
 const Nav = () => {
   return (
 
@@ -9,9 +10,9 @@ const Nav = () => {
             <ul className="navbar">
              <li><Link to="/" className='link-nav'> WebDiv</Link></li>
              <li><Link to="/services" className='link-nav'>Services</Link></li>
-             <li><Link to="/how" className='link-nav'>How We Deliver</Link></li>
-             <li><Link to="/careers" className='link-nav'>Careers</Link></li>
-             <li><Link to="/contact" className='link-nav'>Contact Us</Link></li>
+             <li><Link to="/deliver" className='link-nav'>How We Deliver</Link></li>
+             <li><Link to="/#" className='link-nav'>Careers</Link></li>
+             <li><Model/></li>
            </ul>
          </nav>
     </header>    
